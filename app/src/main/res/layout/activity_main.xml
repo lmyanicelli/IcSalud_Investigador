@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.luciayanicelli.icsalud_investigador.MainActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IC SALUD" />
+
+    <Button
+        android:id="@+id/btn_todos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TODOS" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DE A UNO" />
+
+    <Button
+        android:id="@+id/btn_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DE A 10" />
+
+     <Button
+        android:id="@+id/btn_cero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLVER A CERO" />
+
+    <Button
+        android:id="@+id/btn_indice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER INDICE" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_fecha"
+        android:hint="FECHA: 2018-08-22%2023:59:59"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_OK_FECHA"
+        android:text="LEER TOGGLE STATE"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="FECHA AUTOMATICA"
+        android:textOn="INGRESAR FECHA"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_email"
+        android:hint="EMAIL PROFESIONAL"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_todos_pacientes_un_mail"
+        android:text="UN MAIL CON TODOS LOS PACIENTES"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton_alertaVerde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="CON ALERTA VERDE"
+        android:textOn="SIN ALERTA VERDE"/>
+
+
+</LinearLayout>
+</ScrollView>
